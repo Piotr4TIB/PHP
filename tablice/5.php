@@ -10,6 +10,7 @@ echo "<tr><th>Owoc</th><th>Cena</th></tr>";
     foreach ($owoce as $owoc => $cena) {
         echo "<tr>";
         echo "<td>$owoc</td>";
+        echo "<td>$cena zł</td>";
         echo "</tr>";
     }
 echo "</table>";
