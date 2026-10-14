@@ -1,0 +1,17 @@
+<?php
+function najwiekszyIndeks($tablica) {
+    $max = 0;
+
+    for ($i = 1; $i < count($tablica); $i++) {
+        if ($tablica[$i] > $tablica[$max]) {
+            $max = $i;
+        }
+    }
+
+    return $max;
+}
+
+$liczby = [4, 12, 7, 25, 9];
+
+echo najwiekszyIndeks($liczby); // Wynik: 3
+?>
